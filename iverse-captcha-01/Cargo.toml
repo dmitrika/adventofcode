@@ -1,0 +1,6 @@
+[package]
+name = "iverse-captcha-01"
+version = "0.1.0"
+authors = ["Dmitry Rybin <ayrowa@ya.ru>"]
+
+[dependencies]
