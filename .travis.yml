@@ -1,0 +1,6 @@
+language: rust
+env:
+  - TEST_DIR=iverse-captcha-01
+script:
+  - cd $TEST_DIR && cargo build --verbose --all
+  - cargo test --verbose --all
