@@ -1,6 +1,7 @@
 language: rust
 env:
-  - TEST_DIR=iverse-captcha-01
+  - TEST_DIR=day-01-inverse-captcha
+  - TEST_DIR=day-02-corruption-checksum
 script:
   - cd $TEST_DIR && cargo build --verbose --all
   - cargo test --verbose --all

@@ -1,0 +1,6 @@
+[package]
+name = "day-02-corruption-checksum"
+version = "0.1.0"
+authors = ["Dmitry Rybin <ayrowa@ya.ru>"]
+
+[dependencies]
