@@ -2,6 +2,7 @@ language: rust
 env:
   - TEST_DIR=day-01-inverse-captcha
   - TEST_DIR=day-02-corruption-checksum
+  - TEST_DIR=day-03-spiral-memory
 script:
   - cd $TEST_DIR && cargo build --verbose --all
   - cargo test --verbose --all
