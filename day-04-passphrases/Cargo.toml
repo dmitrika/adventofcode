@@ -1,0 +1,7 @@
+[package]
+name = "day-04-passphrases"
+version = "0.1.0"
+authors = ["Dmitry Rybin <ayrowa@ya.ru>"]
+
+[dependencies]
+itertools = "0.7.3"
